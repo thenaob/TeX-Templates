@@ -1,2 +1,2 @@
-# PlantillaLaTeX
-Plantilla simple para talleres y demás.
+# TeX-templates
+Todas mis pllantillas.
