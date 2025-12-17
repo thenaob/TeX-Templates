@@ -1,0 +1,34 @@
+% !TeX root = ../main.tex
+
+% ============================
+%     NUMERACIÓN
+% ============================
+
+\newtheorem{ejer}{Ejercicio}[section]
+
+% Soluciones: estilo caja opcional
+\newenvironment{solucion}{
+	\begin{proofenv}
+	}{
+	\end{proofenv}
+}
+
+% Ambiente de demostración personalizado
+\newenvironment{proofenv}{
+	\par\noindent\textbf{Solución:}\par
+}{
+	\hfill $\blacksquare$ \par
+}
+
+% Símbolos útiles
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+% Títulos en negrita
+\newcommand{\tomtitle}[1]{\textbf{#1}}
+
+\newenvironment{ejnum}[1]{%
+	\begin{eje}[Ejercicio #1]%
+	}{\end{eje}}
+
